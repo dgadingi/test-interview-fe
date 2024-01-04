@@ -10,10 +10,24 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Persyaratan Sistem
+
+- Node.js
+- npm (Node Package Manager)
+
+## Instalasi
+
+git clone https://github.com/dgadingi/test-interview-fe.git
+
+
 ## Project Setup
 
 ```sh
 npm install
+npm create vue@latest
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install flowbite
 ```
 
 ### Compile and Hot-Reload for Development
